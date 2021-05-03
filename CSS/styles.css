@@ -1,0 +1,70 @@
+body {
+  font-family: "Vollkorn", serif;
+  font-family: "Caveat", cursive;
+  margin: 0px;
+}
+
+p {
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+}
+li {
+  font-family: "Caveat", cursive;
+  font-size: 17px;
+}
+.edge {
+  width: 300px;
+  flex: 0px;
+}
+.section-info {
+  flex-grow: 1;
+  padding-left: 50px;
+}
+.header {
+  padding: 20px;
+  border-bottom: 1px solid rgb(16, 16, 201);
+  text-align: center;
+  font-size: 17px;
+}
+.header-link {
+  margin: 0px 15px;
+}
+.tyk {
+  color: rgb(38, 62, 14);
+  transition: color 0.2s;
+}
+.main {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-grow: 1;
+  padding-top: 50px;
+}
+.title {
+  color: rgb(20, 12, 78);
+  font-family: "Vollkorn", serif;
+}
+.contacts-block {
+  display: flex;
+  align-items: center;
+}
+.contacts-icon {
+  margin-right: 20px;
+}
+.img {
+  border: 1px solid rgb(36, 187, 187);
+  border-radius: 36px;
+}
+.subtitle {
+  border-left: 5px solid rgb(208, 16, 16);
+  padding-left: 7px;
+  color: rgb(34, 15, 142);
+  margin-top: 36px;
+  font-family: "Vollkorn", serif;
+}
+.footer {
+  border-top: 1px solid rgb(34, 15, 142);
+  padding: 27px;
+  text-align: center;
+  counter-reset: rgb(34, 15, 142);
+}
